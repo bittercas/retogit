@@ -4,14 +4,14 @@ public class Moto {
     private String modelo, matricula;
     private int cv;
     private int velocidad;
-    private double km;
+    private double kilometros;
 
     public Moto(){
         this.modelo = "Sin especificar";
         this.matricula = "0000AAA";
         this.cv = 0;
         this.velocidad = 0;
-        this.km = 0;
+        this.kilometros = 0;
     }
 
     public Moto(String modelo, String matricula, int cv){
@@ -19,7 +19,7 @@ public class Moto {
         this.matricula = matricula;
         this.cv = cv;
         this.velocidad = 0;
-        this.km = 0;
+        this.kilometros = 0;
     }
 
     public String getModelo(){
@@ -55,23 +55,23 @@ public class Moto {
         this.velocidad = velocidad;
     }
 
-    public double getKm(){
-        return km;
+    public double getkilometros(){
+        return kilometros;
     }
 
-    public void setKm(double km) {
-        this.km = km;
+    public void setkilometros(double kilometros) {
+        this.kilometros = kilometros;
     }
 
     public void acelerar(int velocidadPasada) {
         byte numero = (byte) (Math.random() * 10);
         if (velocidadPasada > 180) {
             velocidad = 180;
-            km = velocidad * (cv * numero);
+            kilometros = velocidad * (cv * numero);
             System.out.println("Velocidad máxima de 180 km/h alcanzada.");
         } else if (velocidadPasada <= 180) {        // la velocidad pasada siempre será maypr que 0
             velocidad += velocidadPasada;
-            km = velocidad * (cv * numero);
+            kilometros = velocidad * (cv * numero);
         }
     }
 
@@ -93,7 +93,7 @@ public class Moto {
 
     public void resetearTodo() {
         velocidad = 0;
-        km = 0;
+        kilometros = 0;
     }
 
     public void mostrarDatos(String modelo, String marca, int cv, int velocidad, double km){
@@ -101,7 +101,7 @@ public class Moto {
         System.out.println("La marca del auto es "+marca+".");
         System.out.println("Los CVs del auto son "+cv+".");
         System.out.println("La velocidad del auto es "+velocidad+".");
-        System.out.println("Los kms del auto sn "+km+".");
+        System.out.println("Los kms del auto sn "+kilometros+".");
     }
 }
 
