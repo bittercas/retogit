@@ -1,14 +1,12 @@
-# Carrera de autos en Java
+# *__Carrera de autos en Java__*
 ![Imagen de Portada](reto2/1000_F_244042422_2zWnzOYaigjxmfeGSfPc5vbEOdxDxV4p.jpg)
 ## Descripción
-Breve descripción del proyecto, objetivos y funcionalidades principales.
-## Características
-- Característica 1
-- Característica 2
-- Característica 3
-## Instalación
-Instrucciones para instalar y configurar el proyecto.
+Este proyecto va sobre la creación en código de una carrera de autos y motos en Java.
+***
+## Datos y Clases
+- Clase Coche con atributos como velocidad, cv, kilómetro y marca.
+- Clase Moto con atributos similares.
+- Clase Entrada, que crea los objetos y llama a los métodos correspondientes.
+***
 ## Uso
-Guía rápida sobre cómo utilizar el proyecto y ejemplos de código.
-## Contribución
-Información sobre cómo contribuir al proyecto, directrices para enviar pull requests y reportar issues.
+Se puede usar en distintos IDEs.
