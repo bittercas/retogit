@@ -1,5 +1,5 @@
 # Carrera de autos en Java
-![Imagen de Portada](url_de_la_imagen)
+![Imagen de Portada](reto2/1000_F_244042422_2zWnzOYaigjxmfeGSfPc5vbEOdxDxV4p.jpg)
 ## Descripción
 Breve descripción del proyecto, objetivos y funcionalidades principales.
 ## Características
